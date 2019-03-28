@@ -1,0 +1,805 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1450px;
+    height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.background__img {
+    width: 100%;
+    height: 820px;
+    background-position-y: 600px;
+    background-size: cover;
+    background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
+}
+
+.hero {
+    z-index: 2;
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-image: url('https://www.nationalgeographic.com/content/dam/animals/2018/10/sloth-energy/01-sloth-energy-nationalgeographic_1046424.ngsversion.1538409704930.adapt.1900.1.jpg');
+}
+
+.hero__container {
+    width: 94%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
+
+.navbar__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__heading--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__heading--the {
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar__heading--chill {
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar__line {
+    width: 100%;
+    height: 1px;
+    background-color:white;
+}
+
+.navbar__links--container {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px; 
+}
+
+.navbar__site--container a {
+    padding-right: 15px;
+    font-family: 'Crimson Text', serif;
+    color:white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.menu {
+    height: 10px;
+    padding-left: 5px;
+    color: white;
+}
+
+.navbar__search--container a {
+    padding-left: 15px;
+    font-family: 'Crimson Text', serif;
+    color:white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.hero__heading {
+    width: 33%;
+    height: 120px;
+    font-size: 68px;
+    line-height: .9;
+    padding: 30px;
+    font-family: 'Crimson Text', serif;
+    color: white;
+}
+
+.hero__button {
+    width: 160px;
+    height: 60px;
+    margin-left: 30px;
+    background-color:white;
+    color:black;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.search__icon {
+    color: white;
+}
+
+.shop__container {
+    display: flex;
+    z-index: 2;
+    width: 95%;
+    margin: auto;
+}
+
+.shop__dirty--container {
+    height: 800px;
+    width: 50%;
+    z-index: 2;
+}
+
+.shop__dirty--img {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i2.wp.com/www.so-many-places.com/wp-content/uploads/2012/11/IMG_5753.jpg?fit=1200%2C900')
+}
+
+.shop__tote--container {
+    height: 800px;
+    width: 50%;
+    z-index: 2;
+}
+
+.shop__tote--img {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://cdn.shopify.com/s/files/1/1143/5524/products/SLOTH-TOTE-BAG_1024x1024.jpg?v=1487066259')
+}
+
+.shop__text {
+    width: 90%;
+    margin: auto;
+}
+
+.shop__heading {
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 46px;
+    font-family: 'Crimson Text', serif;
+}
+
+.shop__body {
+    font-size: 18px;
+    font-family: 'Crimson Text', serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.shop__text a {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    color: #16a085;
+}
+
+.arrow {
+    height: 14px;
+    padding-left: 7px;
+    padding-top: 8px;
+    font-weight: bold;
+    color: #16a085;
+}
+
+.club__container {
+    display: flex;
+    z-index: 2;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    margin-top: 230px;
+}
+
+.club__text--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 35%;
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 40px;
+}
+
+.club__text--heading {
+    font-size: 68px;
+    line-height: 1;
+}
+
+.club__img--container {
+    background-image: url('https://www.rd.com/wp-content/uploads/2016/04/sloths-slide3SamTrull.jpg');
+    height: 400px;
+    width: 46%;
+    padding: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+.club__button {
+    width: 160px;
+    height: 60px;
+    background-color: #16a085;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.club__text--body {
+    font-size: 18px;
+}
+
+.pride__container {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    width: 100%;
+    height: 600px;
+}
+
+.pride__img--container {
+    width: 50%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/originals/42/9a/52/429a526bc973ba9b5852062a921c142e.jpg');
+}
+
+.pride__text--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    height: 60%;
+    width: 30%;
+    font-family: 'Crimson Text', serif;
+}
+
+.pride__text--heading {
+    font-size: 64px;
+}
+
+.pride__text--body {
+    font-size: 18px;
+}
+
+.pride__button {
+    width: 160px;
+    height: 60px;
+    background-color: #16a085;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.background__img--2 {
+    width: 100%;
+    height: 220px;
+    background-position: 825px;
+    background-size: cover;
+    background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
+}
+
+.favorites__container {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.favorites__heading {
+    font-size: 68px;
+    margin-bottom: 40px;
+}
+
+.favorites__cards--container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Crimson Text', serif;
+    width: 100%;
+}
+
+.favorites__card1--container {
+    width: 30%;
+}
+
+.favorites__card1--img {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://tearaway.co.nz/wp-content/uploads/2017/07/Sloth-1-Pixabay-25717-TWA.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.favorites__card1--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 180px;
+}
+
+.favorites__card1--heading {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.favorites__card1--body {
+    font-size: 18px;
+}
+
+.favorites__card2--container {
+    width: 30%;
+}
+
+.favorites__card2--img {
+    width: 100%;
+    height: 500px;
+    background-image: url('http://animalsbirds.com/wp-content/uploads/2018/06/Maned-sloth-Animals.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.favorites__card2--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 180px;
+}
+
+.favorites__card2--heading {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.favorites__card2--body {
+    font-size: 18px;
+}
+
+.favorites__card3--container {
+    width: 30%;
+}
+
+.favorites__card3--img {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://s2r.iucnredlist.org/sis2_images/1863116536.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.favorites__card3--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 180px;
+}
+
+.favorites__card3--heading {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.favorites__card3--body {
+    font-size: 18px;
+}
+
+a {
+    font-size: 18px;
+}
+
+.background__img--3 {
+    width: 100%;
+    height: 520px;
+    margin-top: 700px;
+    background-position: -825px;
+    background-size: cover;
+    background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
+}
+
+.learn__container {
+    display: flex;
+    z-index: 2;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.learn__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Crimson Text', serif;
+}
+
+.learn__text--heading {
+    font-size: 68px;
+    line-height: .85;
+}
+
+.learn__text--body {
+    font-size: 18px;
+}
+
+.learn__button {
+    width: 160px;
+    height: 60px;
+    background-color: #16a085;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.learn__img {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://www.goeco.org/_media/media/1132/11509.jpg');
+}
+
+.empty__container {
+    display: flex;
+    z-index: 2;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.empty__img {
+    width: 60%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://cdn.shopify.com/s/files/1/1842/8121/articles/1_2048x.jpg?v=1492960413');
+}
+
+.empty__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Crimson Text', serif;
+}
+
+.empty__heading {
+    font-size: 68px;
+    line-height: .85;
+    font-weight: 700;
+}
+
+.empty__body {
+    font-size: 18px;
+}
+
+.empty__button {
+    width: 160px;
+    height: 60px;
+    background-color: #16a085;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.invite__container {
+    display: flex;
+    justify-content: left;
+    z-index: 1;
+    margin-top: 100px;
+    background-color:#ecf0f1;
+    width: 100%;
+    height: 300px;
+}
+
+.invite__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 35%;
+    height: 300px;
+    font-family: 'Crimson Text', serif;
+}
+
+.invite__heading {
+    font-size: 68px;
+    line-height: .85;
+    font-weight: 700;
+}
+
+.invite__body {
+    font-size: 18px;
+}
+
+.invite__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.invite__input {
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson Text', serif;
+    background-color: #ecf0f1;
+    border: 2px solid gray;
+    font-size: 18px;
+    width: 356px;
+    height: 56px;
+    align-items: center;
+}
+
+placeholder {
+    margin-left:10px;
+}
+
+.invite__button {
+    width: 360px;
+    height: 60px;
+    background-color: #16a085;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__sill--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 47%;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/01/24/13/RTR3A811.jpg');
+}
+
+.about__shop--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 47%;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://media.mnn.com/assets/images/2018/04/LItSL_19.jpg.990x0_q80_crop-smart.jpg');
+}
+
+.about__text {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    font-family: 'Crimson Text', serif;
+}
+
+.about__heading {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 40px;
+    font-size: 58px;
+}
+
+.about__body {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+}
+
+.about__text a {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 80px;
+    font-size: 18px;
+    color: #55efc4;
+    text-decoration: none;
+}
+
+.background__img--4 {
+    width: 100%;
+    height: 820px;
+    background-size: cover;
+    background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
+}
+
+.wild__container {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.wild__heading {
+    font-size: 68px;
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 60px;
+}
+
+.wild__photos--container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wild__photo1 {
+    height: 250px;
+    width: 19%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.earthtouchnews.com/media/1085508/pygmy-sloth-close-up_2015_05_25.png');
+}
+
+.wild__photo2 {
+    height: 250px;
+    width: 19%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYTBY5W4dLFJzBUs5NJqUpOeHyoTpAlFdAyfK28Z144sr2TRb-');
+}
+
+.wild__photo3 {
+    height: 250px;
+    width: 19%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://d31j74p4lpxrfp.cloudfront.net/sites/default/files/styles/wysiwyg/public/ca_-_en_files/1020195_1.jpg?itok=GQCLS-CB');
+}
+
+.wild__photo4 {
+    height: 250px;
+    width: 19%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.theconversation.com/files/253713/original/file-20190114-43544-1hvbye2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip');
+}
+
+.wild__photo5 {
+    height: 250px;
+    width: 19%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.kym-cdn.com/photos/images/original/000/923/819/9ce.jpg');
+}
+
+.wild__arrow {
+    position: relative;
+    left: 1350px;
+    top: -150px;
+}
+
+.wild__powered--container {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 10px;
+    font-family: 'Crimson Text', serif;
+}
+
+.line__container {
+    height: 1px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #ecf0f1;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__basiclinks {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Crimson Text', serif;
+}
+
+.footer__basiclinks a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__inputs {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Crimson Text', serif;
+}
+
+.footer__technicallinks {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Crimson Text', serif;
+}
+
+.footer__technicallinks a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__input--heading {
+    font-size: 24px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.footer__input--email  {
+    width: 80%;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    font-family: 'Crimson Text', serif;
+}
+
+.footer__input--subscribe  {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'Crimson Text', serif;
+    width: 80%;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social__medias {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.fb {
+    height: 90px;
+    padding: 15px;
+}
+
+.ig {
+    padding: 15px;
+}
+
+.twit {
+    padding: 15px;
+}
