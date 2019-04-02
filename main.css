@@ -9,16 +9,20 @@ body {
 	margin-right: auto;
 }
 
-.background__img {
-    width: 100%;
-    height: 820px;
-    background-position-y: 600px;
+.leaf {
+    z-index: -1;
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    top: 640px;
+    left: 60px;
+    transform: rotate(220deg);
+    background-position: center;
     background-size: cover;
-    background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
+    background-image: url('http://www.pngmart.com/files/8/Watercolor-Leaves-Transparent-PNG.png')
 }
 
 .hero {
-    z-index: 2;
     width: 100%;
     height: 750px;
     background-size: cover;
@@ -26,11 +30,15 @@ body {
 }
 
 .hero__container {
-    width: 94%;
+    width: 92%;
     height: 90%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1%;
+}
+
+.nav__menu {
+    display: none;
 }
 
 .navbar__container {
@@ -95,6 +103,7 @@ body {
     width: 33%;
     height: 120px;
     font-size: 68px;
+    letter-spacing: 2px;
     line-height: .9;
     padding: 30px;
     font-family: 'Crimson Text', serif;
@@ -102,13 +111,15 @@ body {
 }
 
 .hero__button {
-    width: 160px;
-    height: 60px;
+    width: 130px;
+    height: 56px;
     margin-left: 30px;
     background-color:white;
     color:black;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
+    font-weight: 500;
+    border-radius: 2px;
 }
 
 .search__icon {
@@ -117,62 +128,58 @@ body {
 
 .shop__container {
     display: flex;
+    justify-content: space-between;
     z-index: 2;
-    width: 95%;
-    margin: auto;
-}
-
-.shop__dirty--container {
-    height: 800px;
-    width: 50%;
-    z-index: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
 }
 
 .shop__dirty--img {
-    height: 90%;
-    width: 90%;
-    margin: auto;
+    height: 800px;
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-image: url('https://i2.wp.com/www.so-many-places.com/wp-content/uploads/2012/11/IMG_5753.jpg?fit=1200%2C900')
 }
 
-.shop__tote--container {
-    height: 800px;
-    width: 50%;
+.shop--container {
+    width: 47%;
     z-index: 2;
 }
 
 .shop__tote--img {
-    height: 90%;
-    width: 90%;
-    margin: auto;
+    height: 800px;
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-image: url('https://cdn.shopify.com/s/files/1/1143/5524/products/SLOTH-TOTE-BAG_1024x1024.jpg?v=1487066259')
 }
 
 .shop__text {
-    width: 90%;
-    margin: auto;
+    width: 100%;
 }
 
 .shop__heading {
     margin-top:20px;
     margin-bottom: 10px;
-    font-size: 46px;
+    letter-spacing: 2px;
+    font-size: 40px;
     font-family: 'Crimson Text', serif;
+    font-weight: 800;
 }
 
 .shop__body {
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Crimson Text', serif;
     font-weight: lighter;
     padding-bottom: 10px;
+    line-height: 1.4;
 }
 
 .shop__text a {
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
     font-family: 'Crimson Text', serif;
     font-weight: bold;
@@ -189,44 +196,47 @@ body {
 
 .club__container {
     display: flex;
-    z-index: 2;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 600px;
-    margin-top: 230px;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 130px;
 }
 
 .club__text--container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 70%;
-    width: 35%;
+    justify-content: space-between;
+    height: 350px;
+    width: 36%;
     font-family: 'Crimson Text', serif;
-    margin-bottom: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .club__text--heading {
-    font-size: 68px;
+    font-size: 62px;
     line-height: 1;
+    font-weight: 500;
 }
 
 .club__img--container {
     background-image: url('https://www.rd.com/wp-content/uploads/2016/04/sloths-slide3SamTrull.jpg');
-    height: 400px;
-    width: 46%;
-    padding: 40px;
+    height: 480px;
+    width: 58%;
     background-position: center;
     background-size: cover;
 }
 
 .club__button {
     width: 160px;
-    height: 60px;
+    height: 55px;
     background-color: #16a085;
     color: white;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
+    border-radius: 4px;
 }
 
 .club__text--body {
@@ -235,14 +245,17 @@ body {
 
 .pride__container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     z-index: 2;
-    width: 100%;
-    height: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
 }
 
 .pride__img--container {
-    width: 50%;
+    width: 58%;
     height: 500px;
     background-position: center;
     background-size: cover;
@@ -254,13 +267,14 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 50px;
-    height: 60%;
-    width: 30%;
+    height: 100%;
+    width: 32%;
     font-family: 'Crimson Text', serif;
 }
 
 .pride__text--heading {
     font-size: 64px;
+    font-weight: 600;
 }
 
 .pride__text--body {
@@ -269,11 +283,13 @@ body {
 
 .pride__button {
     width: 160px;
-    height: 60px;
+    height: 55px;
+    margin-top: 20px;
     background-color: #16a085;
     color: white;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
+    border-radius: 2px;
 }
 
 .background__img--2 {
@@ -284,21 +300,29 @@ body {
     background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
 }
 
+
+
 .favorites__container {
+    z-index: 2;
     display: flex;
     flex-direction: column;
-    width: 92%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Crimson Text', serif;
 }
 
 .favorites__heading {
+    z-index: 3;
     font-size: 68px;
     margin-bottom: 40px;
+    font-weight: 600;
+    width: 100%;
 }
 
 .favorites__cards--container {
     display: flex;
+    z-index: 1;
     justify-content: space-between;
     font-family: 'Crimson Text', serif;
     width: 100%;
@@ -309,6 +333,8 @@ body {
 }
 
 .favorites__card1--img {
+    display: absolute;
+    z-index: 5;
     width: 100%;
     height: 500px;
     background-image: url('https://tearaway.co.nz/wp-content/uploads/2017/07/Sloth-1-Pixabay-25717-TWA.jpg');
@@ -361,10 +387,24 @@ body {
 }
 
 .favorites__card3--container {
+    display: absolute;
     width: 30%;
 }
-
+.leaves {
+    z-index: -1;
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    top: 3010px;
+    right: 30px;
+    object-fit: none;
+    transform: rotate(150deg);
+    background-position: center;
+    background-size: cover;
+    background-image: url('http://www.pngmart.com/files/8/Green-Palm-Leaves-Transparent-Background.png')
+}
 .favorites__card3--img {
+    z-index: 4;
     width: 100%;
     height: 500px;
     background-image: url('https://s2r.iucnredlist.org/sis2_images/1863116536.jpg');
@@ -388,23 +428,17 @@ body {
     font-size: 18px;
 }
 
-a {
-    font-size: 18px;
-}
-
-.background__img--3 {
-    width: 100%;
-    height: 520px;
-    margin-top: 700px;
-    background-position: -825px;
-    background-size: cover;
-    background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
+.cards__a {
+    font-size: 20px;
+    color: #16a085;
+    text-decoration: none;
 }
 
 .learn__container {
     display: flex;
     z-index: 2;
-    width: 92%;
+    width: 90%;
+    margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -423,6 +457,7 @@ a {
 
 .learn__text--heading {
     font-size: 68px;
+    font-weight: 600;
     line-height: .85;
 }
 
@@ -437,6 +472,20 @@ a {
     color: white;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
+    border-radius: 2px;
+}
+
+.leaf1 {
+    z-index: -1;
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    top: 4410px;
+    left: 30px;
+    object-fit: none;
+    background-position: center;
+    background-size: cover;
+    background-image: url('http://www.pngmart.com/files/8/Watercolor-Leaves-Transparent-PNG.png')
 }
 
 .learn__img {
@@ -450,11 +499,11 @@ a {
 .empty__container {
     display: flex;
     z-index: 2;
-    width: 92%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .empty__img {
@@ -493,6 +542,7 @@ a {
     color: white;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
+    border-radius: 4px;
 }
 
 .invite__container {
@@ -501,14 +551,29 @@ a {
     z-index: 1;
     margin-top: 100px;
     background-color:#ecf0f1;
-    width: 100%;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
+}
+
+.leaf2 {
+    z-index: 21;
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    top: 5110px;
+    right: 30px;
+    object-fit: none;
+    background-position: center;
+    background-size: cover;
+    background-image: url('http://www.pngmart.com/files/8/Watercolor-Leaves-Transparent-PNG.png')
 }
 
 .invite__text {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 100px;
     width: 35%;
     height: 300px;
@@ -519,10 +584,12 @@ a {
     font-size: 68px;
     line-height: .85;
     font-weight: 700;
+    margin-top: 60px;
 }
 
 .invite__body {
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 .invite__inputs {
@@ -538,14 +605,16 @@ a {
     justify-content: center;
     font-family: 'Crimson Text', serif;
     background-color: #ecf0f1;
-    border: 2px solid gray;
+    border: 1px solid gray;
     font-size: 18px;
     width: 356px;
     height: 56px;
     align-items: center;
+    padding-left: 10px;
+    margin: 5px;
 }
 
-placeholder {
+.invite_input placeholder {
     margin-left:10px;
 }
 
@@ -553,9 +622,11 @@ placeholder {
     width: 360px;
     height: 60px;
     background-color: #16a085;
+    margin-top: 5px;
     color: white;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
+    border-radius: 2px;
 }
 
 .about__container {
@@ -571,7 +642,7 @@ placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 670px;
     width: 47%;
     margin-top: 120px;
     margin-bottom: 30px;
@@ -584,7 +655,7 @@ placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 670px;
     width: 47%;
     margin-top: 120px;
     margin-bottom: 30px;
@@ -595,7 +666,6 @@ placeholder {
 
 .about__text {
     width: 90%;
-    height: 40%;
     background-color: white;
     font-family: 'Crimson Text', serif;
 }
@@ -622,11 +692,17 @@ placeholder {
     text-decoration: none;
 }
 
-.background__img--4 {
-    width: 100%;
-    height: 820px;
+.leaf3 {
+    z-index: -1;
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    top: 6110px;
+    left: 30px;
+    object-fit: none;
+    background-position: center;
     background-size: cover;
-    background-image: url('https://ya-webdesign.com/images/hand-drawn-branch-png-15.png');
+    background-image: url('http://www.pngmart.com/files/8/Watercolor-Leaves-Transparent-PNG.png')
 }
 
 .wild__container {
@@ -641,7 +717,9 @@ placeholder {
 .wild__heading {
     font-size: 68px;
     font-family: 'Crimson Text', serif;
+    font-weight: 700;
     margin-bottom: 60px;
+    letter-spacing: 2px;
 }
 
 .wild__photos--container {
@@ -691,9 +769,10 @@ placeholder {
 }
 
 .wild__arrow {
-    position: relative;
-    left: 1350px;
-    top: -150px;
+    position: absolute;
+    right:0;
+    padding-right: 6%;
+    padding-top: 260px;
 }
 
 .wild__powered--container {
@@ -702,13 +781,14 @@ placeholder {
     color: gray;
     font-size: 10px;
     font-family: 'Crimson Text', serif;
+    margin-top: 30px;
 }
 
 .line__container {
     height: 1px;
     width: 100%;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     background-color: #ecf0f1;
 }
 
@@ -760,46 +840,488 @@ placeholder {
 }
 
 .footer__input--heading {
-    font-size: 24px;
+    font-size: 22px;
     padding-bottom: 30px;
     letter-spacing: 2px;
 }
 
 .footer__input--email  {
-    width: 80%;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    width: 90%;
     height: 54px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Crimson Text', serif;
 }
 
-.footer__input--subscribe  {
+.button--subscribe  {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Crimson Text', serif;
-    width: 80%;
+    width: 91%;
     height: 54px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 
 .social__medias {
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .fb {
-    height: 90px;
+    height: 30px;
     padding: 15px;
 }
 
 .ig {
+    height: 30px;
     padding: 15px;
 }
 
 .twit {
+    height: 30px;
     padding: 15px;
+}
+
+@media ( max-width: 700px ) {
+
+    .hero {
+        height: 900px;
+        margin-bottom: 60px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .leaf {
+        display: none;
+    }
+
+    .nav__menu {
+        display: flex;
+        transform: rotate(90deg);
+        margin-top: 20px;
+    }
+
+    .bag {
+        display: flex;
+        transform: rotate(90deg);
+        margin-top: 10px;
+    }
+
+    .navbar__container {
+        padding: 0px;
+    }
+
+    .navbar__search--container a {
+        padding: 0px;
+    }
+
+    .navbar__site--container a {
+        padding: 0px;
+    }
+
+    .navbar__heading--container {
+        justify-content: center;
+        align-self: center;
+    }
+
+    .navbar__heading--chill {
+        padding-left: 10px;
+    }
+    .navbar__heading--the {
+        padding-right: 10px;
+    }
+
+    .navbar__line {
+        width: 125px;
+        align-self: center;
+    }
+
+    .navbar__links--container {
+        position: absolute;
+        width: 90%;
+        padding: 0px;
+    }
+
+    .hero__heading {
+        align-self: center;
+        font-size: 46px;
+        width: 80%;
+        margin-top: 120px;
+        padding: 0px;
+    }
+    .hero__button {
+        margin-left:0px;
+        padding: none;
+        width: 130px;
+        font-weight: 900;
+    }
+
+    .search__icon {
+        display: none;
+    }
+
+    .shop__container {
+        flex-direction: column;
+        margin-top: 60px
+    }
+
+    .shop--container {
+        width: 100%;
+    }
+
+    .shop__heading {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .shop__dirty--img {
+        height: 462px;
+    }
+
+    .shop__tote--img {
+        height: 462px;
+    }
+
+    .shop__text {
+        margin-bottom: 76px;
+    }
+
+    .shop__body {
+        padding: 0px;
+        line-height: 1.3;
+    }
+
+    .shop__text a {
+        margin-top: 15px;
+    }
+
+    .club__container {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .club__img--container {
+        height: 272px;
+        width: 100%;
+    }
+
+    .club__text--container {
+        width: 100%;
+        height: 322px;
+    }
+
+    .club__text--heading {
+        font-size: 38px;
+        font-weight: 600;
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    .club__text--body {
+        width: 100%;
+    }
+
+    .invite__container {
+        flex-direction: column;
+    }
+
+    .invite__inputs {
+        justify-content: flex-start;
+    }
+
+    .invite__input {
+        padding-left: 25px;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .invite__button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .pride__container {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .pride__img--container {
+        width: 100%;
+        height: 276px;
+    }
+
+    .pride__text--container {
+        width: 100%;
+        padding: 0px;
+        height: 260px;
+    }
+
+    .pride__text--heading {
+        font-size: 40px;
+    }
+
+    .pride__button {
+        margin-top: 26px;
+        width: 150px;
+    }
+
+    .favorites__container {
+        z-index: 2;
+    }
+
+    .favorites__heading {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    .favorites__cards--container {
+        flex-direction: column;
+        z-index: 2;
+    }
+
+    .favorites__card1--container {
+        width: 100%;
+        z-index: 2;
+    }
+
+    .favorites__card1--img {
+        height: 550px;
+    }
+
+    .favorites__card1--text {
+        height: 160px;
+    }
+
+    .favorites__card2--container {
+        width: 100%;
+    }
+
+    .favorites__card2--img {
+        height: 550px;
+        margin-top: 45px;
+    }
+
+    .favorites__card2--text {
+        z-index: 2;
+    }
+
+    .favorites__card3--container {
+        width: 100%;
+        z-index: 2;
+    }
+
+    .favorites__card3--img {
+        height: 550px;
+        margin-top: 45px;
+    }
+
+    .leaf1 {
+        display: none;
+    }
+
+    .leaves {
+        display: none;
+    }
+
+    .leaf2 {
+        display: none;
+    }
+
+    .favorites__card3--text {
+        z-index: 2;
+    }
+
+    .learn__container {
+        z-index: 2;
+        flex-direction: column-reverse;
+        margin-top: 36px;
+    }
+
+    .learn__img {
+        height: 318px;
+    }
+
+    .learn__text {
+        width: 100%;
+        padding: 0px;
+        height: 320px;
+    }
+
+    .learn__text--heading {
+        font-size: 42px;
+    }
+
+    .leaf3 {
+        display: none;
+    }
+
+    .learn__button {
+        width: 210px;
+        height: 56px;;
+    }
+
+    .empty__container {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .empty__img {
+        height: 320px;
+        width: 100%;
+    }
+
+    .empty__text {
+        width: 100%;
+        padding: 0px;
+        height: 330px;
+    }
+
+    .empty__heading {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+
+    .empty__button {
+        height: 56px;
+    }
+
+    .invite__container {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 478px;
+        margin-top: 30px;
+    }
+
+    .invite__text {
+        width: 100%;
+        height: 200px;
+        margin: 0px;
+    }
+
+    .invite__heading {
+        margin-top: 60px;
+        margin-bottom: 0px;
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .invite__body {
+        font-size: 19px;
+    }
+
+    .invite__inputs {
+        height: 200px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .invite__input {
+        height: 100px;
+    }
+
+    .invite__button {
+        height: 110px;
+        width: 388px;
+    }
+
+    .about__container {
+        flex-direction: column;
+    }
+
+    .about__shop--container {
+        width: 100%;
+        margin-top: 60px;
+        height: 462px;
+    }
+
+    .about__text {
+        padding-bottom: 30px;
+    }
+
+    .about__text a {
+        padding: 20px;
+    }
+
+    .about__heading {
+        font-size: 34px;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    .about__body {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 0px;
+    }
+
+    .about__sill--container {
+        width: 100%;
+        margin-top: 60px;
+        height: 462px;
+    }
+
+    .wild__container {
+        margin-top: 30px;
+    }
+
+    .wild__heading {
+        font-size: 40px;
+    }
+
+    .footer__basiclinks {
+        display: none;
+    }
+
+    .footer__technicallinks {
+        display: none;
+    }
+
+    .footer__container {
+        width: 100%;
+    }
+
+    .footer__input--heading {
+        justify-content: center;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    .footer__inputs {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .footer__input--email {
+        width: 80%;
+        height: 50px;
+    }
+
+    .button--subscribe {
+        width: 80%;
+        height: 50px;
+    }
+
+    .social__medias {
+        margin-top: 20px;
+        margin-bottom: 56px;
+    }
+
 }
