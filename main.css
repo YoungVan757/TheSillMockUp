@@ -958,8 +958,9 @@ body {
         padding: 0px;
     }
     .hero__button {
+        margin-top: 10px;
         margin-left:0px;
-        padding: none;
+        padding: 0px;
         width: 130px;
         font-weight: 900;
     }
