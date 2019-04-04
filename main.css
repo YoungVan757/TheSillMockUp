@@ -386,7 +386,6 @@ body {
 }
 
 .favorites__card3--container {
-    display: absolute;
     width: 30%;
 }
 .leaves {
@@ -1116,7 +1115,6 @@ body {
 
     .favorites__card3--container {
         width: 100%;
-        z-index: 2;
     }
 
     .favorites__card3--img {
@@ -1222,7 +1220,7 @@ body {
 
     .invite__inputs {
         justify-content: flex-start;
-        width: 70%;
+        width: 80%;
         height: 200px;
         margin: 0px;
         padding: 0px;
@@ -1232,11 +1230,12 @@ body {
 
     .invite__input {
         height: 100px;
+        width: 100%;
     }
 
     .invite__button {
         height: 110px;
-        width: 388px;
+        width: 100%;
     }
 
     .about__container {
@@ -1323,6 +1322,7 @@ body {
     }
 
     .wild__arrow {
+        display: none;
         right: -32px;
         top: 8926px;
     }
