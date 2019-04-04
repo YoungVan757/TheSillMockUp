@@ -100,7 +100,7 @@ body {
 }
 
 .hero__heading {
-    width: 33%;
+    width: 40%;
     height: 120px;
     font-size: 68px;
     letter-spacing: 2px;
@@ -1039,6 +1039,7 @@ body {
 
     .invite__inputs {
         justify-content: flex-start;
+        width: 80%;
     }
 
     .invite__input {
@@ -1103,6 +1104,10 @@ body {
 
     .favorites__card1--text {
         height: 160px;
+    }
+
+    .favorites__card1--heading {
+        margin-top: 15px;
     }
 
     .favorites__card2--container {
@@ -1315,7 +1320,7 @@ body {
     }
 
     .button--subscribe {
-        width: 80%;
+        width: 81%;
         height: 50px;
     }
 
