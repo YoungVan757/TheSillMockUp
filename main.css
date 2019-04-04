@@ -26,6 +26,7 @@ body {
     width: 100%;
     height: 750px;
     background-size: cover;
+    background-position: center;
     background-image: url('https://www.nationalgeographic.com/content/dam/animals/2018/10/sloth-energy/01-sloth-energy-nationalgeographic_1046424.ngsversion.1538409704930.adapt.1900.1.jpg');
 }
 
@@ -893,7 +894,6 @@ body {
     .hero {
         height: 900px;
         margin-bottom: 60px;
-        background-position: center;
     }
 
     .search {
@@ -1036,11 +1036,6 @@ body {
         flex-direction: column;
     }
 
-    .invite__inputs {
-        justify-content: flex-start;
-        width: 80%;
-    }
-
     .invite__input {
         padding-left: 25px;
         margin-left: 0px;
@@ -1089,12 +1084,10 @@ body {
 
     .favorites__cards--container {
         flex-direction: column;
-        z-index: 2;
     }
 
     .favorites__card1--container {
         width: 100%;
-        z-index: 2;
     }
 
     .favorites__card1--img {
@@ -1102,7 +1095,6 @@ body {
     }
 
     .favorites__card1--text {
-        height: 160px;
     }
 
     .favorites__card1--heading {
@@ -1229,6 +1221,8 @@ body {
     }
 
     .invite__inputs {
+        justify-content: flex-start;
+        width: 70%;
         height: 200px;
         margin: 0px;
         padding: 0px;
@@ -1326,6 +1320,11 @@ body {
     .social__medias {
         margin-top: 20px;
         margin-bottom: 56px;
+    }
+
+    .wild__arrow {
+        right: -32px;
+        top: 8926px;
     }
 
 }
