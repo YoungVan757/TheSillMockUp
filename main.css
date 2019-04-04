@@ -1042,11 +1042,6 @@ body {
         margin-bottom: 5px;
     }
 
-    .invite__button {
-        width: 100%;
-        margin-top: 20px;
-    }
-
     .pride__container {
         flex-direction: column;
         margin-bottom: 30px;
@@ -1230,12 +1225,13 @@ body {
 
     .invite__input {
         height: 100px;
-        width: 100%;
+        width: 90%;
     }
 
     .invite__button {
         height: 110px;
         width: 100%;
+        margin-top: 20px;
     }
 
     .about__container {
