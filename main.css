@@ -893,6 +893,7 @@ body {
     .hero {
         height: 900px;
         margin-bottom: 60px;
+        background-position: center;
     }
 
     .search {
